@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciano Ledesma | Desarrollador Full Stack</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="description" content="Portfolio innovador de Luciano Ledesma, desarrollador Full Stack especializado en soluciones web modernas y funcionales.">
+    <meta name="keywords" content="Luciano Ledesma, desarrollador full stack, programador, desarrollo web, HTML, CSS, JavaScript, Python, SQL, C++, portfolio, Argentina">
+    <meta name="author" content="Luciano Ledesma">
+</head>
+<body data-theme="dark">
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="theme-ball"></span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">LL</span>
+                <span class="logo-dot"></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active" data-text="Inicio">
+                    <span>Inicio</span>
+                </a>
+                <a href="#about" class="nav-link" data-text="Sobre mí">
+                    <span>Sobre mí</span>
+                </a>
+                <a href="#skills" class="nav-link" data-text="Habilidades">
+                    <span>Habilidades</span>
+                </a>
+                <a href="#projects" class="nav-link" data-text="Proyectos">
+                    <span>Proyectos</span>
+                </a>
+                <a href="#contact" class="nav-link" data-text="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </div>
+            <button class="menu-btn" id="menuBtn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hola, soy</span>
+                        <span class="title-line highlight">Luciano Ledesma</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <div class="typewriter">
+                            <span class="type-text">Desarrollador Full Stack</span>
+                        </div>
+                        <div class="cursor"></div>
+                    </div>
+                    <p class="hero-description">Programador junior apasionado por crear soluciones tecnológicas innovadoras con un enfoque en la experiencia de usuario y la eficiencia.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Ver proyectos</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="CURRICULUMVITAE.pdf" class="btn btn-secondary" download>
+                            <span>Descargar CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="luchi.png" alt="Luciano Ledesma" class="profile-image">
+                        <div class="image-border"></div>
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="tech-icons">
+                        <div class="icon" style="--i:1"><i class="fab fa-html5"></i></div>
+                        <div class="icon" style="--i:2"><i class="fab fa-css3-alt"></i></div>
+                        <div class="icon" style="--i:3"><i class="fab fa-js"></i></div>
+                        <div class="icon" style="--i:4"><i class="fab fa-python"></i></div>
+                        <div class="icon" style="--i:5"><i class="fas fa-database"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-header">
+                <span class="section-subtitle">Conóceme</span>
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="luchi.png" alt="Luciano Ledesma">
+                        <div class="image-frame"></div>
+                        <div class="image-dots"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="content-title">Desarrollador Full Stack en constante evolución</h3>
+                    <div class="content-text">
+                        <p>Soy un programador junior con una inmensa pasión por la tecnología, el desarrollo de software y la resolución de problemas complejos. Mi objetivo es crecer profesionalmente en el dinámico mundo de la programación, aprendiendo constantemente nuevas tecnologías y enfrentando desafíos que me permitan evolucionar tanto personal como profesionalmente.</p>
+                        <p>Actualmente me enfoco en el desarrollo web full-stack y la creación de aplicaciones robustas. Tengo un interés especial en diseñar e implementar soluciones eficientes, escalables y con experiencias de usuario intuitivas y agradables.</p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Nombre:</span>
+                            <span class="info-value">Luciano Ledesma</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">luchi8725@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Edad:</span>
+                            <span class="info-value">17 años</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Ubicación:</span>
+                            <span class="info-value">Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Contáctame</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                        <a href="#skills" class="btn btn-tertiary">
+                            <span>Mis habilidades</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-header">
+                <span class="section-subtitle">Lo que sé</span>
+                <h2 class="section-title">Mis habilidades</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="technical">Técnicas</button>
+                    <button class="tab-btn" data-tab="professional">Profesionales</button>
+                    <button class="tab-btn" data-tab="tools">Herramientas</button>
+                    <div class="tab-indicator"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="tab-content active" id="technical">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">HTML5</h3>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">CSS3</h3>
+                                <span class="skill-level">62%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 62%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">JavaScript</h3>
+                                <span class="skill-level">30%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">SQL</h3>
+                                <span class="skill-level">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Python</h3>
+                                <span class="skill-level">10%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 10%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="professional">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Resolución de problemas</h3>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Trabajo en equipo</h3>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Comunicación efectiva</h3>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Adaptabilidad</h3>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <h3 class="skill-name">Gestión del tiempo</h3>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tools">
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <h3 class="tool-name">Git</h3>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <h3 class="tool-name">GitHub</h3>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-terminal"></i>
+                                </div>
+                                <h3 class="tool-name">Terminal</h3>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="tool-name">VS Code</h3>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-figma"></i>
+                                </div>
+                                <h3 class="tool-name">Figma</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-header">
+                <span class="section-subtitle">Mi trabajo</span>
+                <h2 class="section-title">Proyectos recientes</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-container">
+                <!-- Proyecto 1 - Sistema de Gestión de Inventario -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-inventory.jpg" alt="Sistema de Gestión de Inventario">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/Sistema-Gestion-Inventario" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3 class="project-title">Sistema de Gestión de Inventario</h3>
+                        <p class="project-description">Aplicación web completa para gestionar inventarios, stock y ventas de pequeñas empresas, con reportes y análisis integrados.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 - Blog Personal Responsivo -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-blog.jpg" alt="Blog Personal Responsivo">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/Blog-Personal" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="https://juanpestana.netlify.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Diseño Web</span>
+                        <h3 class="project-title">Blog Personal Responsivo</h3>
+                        <p class="project-description">Un blog personal dinámico y con diseño responsive, construido puramente con HTML, CSS y JavaScript vanilla.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 - Aplicación de Clima Móvil -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-weather.jpg" alt="Aplicación de Clima Móvil">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/App-Clima-Movil" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.clima.weatherapp&pli=1" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplicación</span>
+                        <h3 class="project-title">Aplicación de Clima Móvil</h3>
+                        <p class="project-description">Aplicación móvil intuitiva que muestra el clima actual y pronóstico detallado utilizando una API externa de meteorología.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>React Native</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 - E-commerce Básico -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-ecommerce.jpg" alt="E-commerce Básico">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/E-commerce-Basico" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3 class="project-title">E-commerce Básico</h3>
+                        <p class="project-description">Tienda online funcional con carrito de compras, autenticación de usuarios y panel de administración básico.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 - Juego de Memoria -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-memory.jpg" alt="Juego de Memoria">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/Juego-Memoria" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Juego</span>
+                        <h3 class="project-title">Juego de Memoria</h3>
+                        <p class="project-description">Juego interactivo de memoria con temática de superhéroes, contador de movimientos y temporizador.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 - Calculadora Avanzada -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-calculator.jpg" alt="Calculadora Avanzada">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/LucianoLedesma77/Calculadora-Avanzada" target="_blank" class="project-link">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplicación</span>
+                        <h3 class="project-title">Calculadora Avanzada</h3>
+                        <p class="project-description">Calculadora con funciones científicas, historial de operaciones y modo oscuro/claro configurable.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/LucianoLedesma77" target="_blank" class="btn btn-secondary">
+                    <span>Ver más proyectos en GitHub</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-header">
+                <span class="section-subtitle">Ponte en contacto</span>
+                <h2 class="section-title">Trabajemos juntos</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-title">Información de contacto</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Email</span>
+                                <a href="mailto:luchi8725@gmail.com">luchi8725@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Teléfono</span>
+                                <a href="tel:+541126903074">11 2690-3074</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Ubicación</span>
+                                <span>Buenos Aires, Argentina</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/luciano-ledesma-b3a6b8230/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/LucianoLedesma77" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Enviar mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <span class="logo-text">LL</span>
+                        <span class="logo-dot"></span>
+                    </a>
+                    <p>Programador junior con una visión clara: transformar ideas en soluciones digitales eficientes y estéticamente atractivas.</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre mí</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Suscríbete para recibir las últimas noticias sobre mis proyectos y actualizaciones.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Luciano Ledesma. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos de uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
